@@ -6,49 +6,29 @@
     <title>Titulo de la Pagina</title>
 </head>
 <body>
-    <header>
-        <img src="seccion1.png" style="width: 100vw; height: 500px;">
-            </header>
-    <div class="seccion1">
-        <h1 class="titulo1">Cafeteria la Once</h1>
-        <p class="parrafo1">Platos sabrosísimos.</p>    
-    </div>
-    <div class="seccion2">
-        <h1>!Hola!
-            Somos Cafetería la Once.
-        </h1>
-        <p>Nos acabamos de mudar al barrio, pero es
-            como si lleváramos aquí toda la vida. Nos
-            habéis acogido como a viejos amigos al
-            visitarnos con una sonrisa y un gran apetito.
-            Por eso nos comprometemos a servir siempre
-            lo bueno. Nuestra comida siempre será de
-            cultivo ecológico, de origen local, cocinada
-            a fuego lento y servida con una cálida
-            sonrisa. Ahora somos una familia. Y así es
-            como cocinamos para los que amamos.
-            Bienvenidos a casa.</p>    
-    </div>
-    <div class="seccion3">
-        <h1>este es un encabezado</h1>
-        <p>este es un parrafo</p>    
-    </div>
-    <div class="seccion4">
-        <h1>este es un encabezado</h1>
-        <p>este es un parrafo</p>    
-    </div>
-    <div class="seccion5">
-        <h1>este es un encabezado</h1>
-        <p>este es un parrafo</p>    
-    </div>
-    <div class="seccion6">
-        <h1>este es un encabezado</h1>
-        <p>este es un parrafo</p>    
-    </div>
-    <div class="seccion7">
-        <h1>este es un encabezado</h1>
-        <p>este es un parrafo</p>    
-    </div>
+   <header>
+    <h1>Mi Portafolio</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">Sobre Mi</a></li>
+            <li><a href="#portafolio">Portafolio</a></li>
+            <li><a href="#contac">Contacto</a></li>
+        </ul>
+    </nav>
+   </header>
+<section id="contact">
+    <h2>Contacto</h2>
+    <form action="/submit" method="post">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="mesaage">Mensaje:</label>
+        <textarea id="message" name="message" required></textarea><br> 
+        <input type="submit" value="Enviar">
+            </form>  
+</section>
+
 
 </body>
 </html>
