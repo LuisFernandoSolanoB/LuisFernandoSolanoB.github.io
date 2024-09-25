@@ -4,11 +4,13 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link href="css/estilos.css" rel="stylesheet">
 
-    <title>Titulo de la Pagina</title>
+    <title>Portafolio</title>
 </head>
 <body>
+
    <header>
     <h1>Mi Portafolio</h1>
+    <img src="/logo1.jpg" class="entrada">
     <nav>
         <ul>
             <li><a href="#about">Sobre Mi</a></li>
@@ -17,8 +19,43 @@
         </ul>
     </nav>
    </header>
+   <section id="about">
+    <h2>Sobre Mi</h2>
+    <p>
+    Hola, soy Fernando, 
+    Coordinador comercial BTL para la ciudad de Bucaramanga y Cucuta Norte de Santander, 
+    en fortalecimiento de marcas existentes; lanzamiento y posicinamiento de nuevas marcas en el mercado
+    </p>
+   </section>
+   <section ID="Portafolio">
+    <h2>Portafolio</h2>
+    <div class="gallery">
+    <div class="project">
+    <img src="/caravana.jpg" alt="Caravanas">
+    <p>
+    Campañas PAP para fortalecimiento y recordación de la marca, 
+    a través de tomas de barrio por medio de caravanas.
+    </p>
+    </div>
+    <div class="project">
+        <img src="/sampling.jpg" alt="Nuevo Producto">
+        <p>Sampling nuevos productos en el mercado, lanzamiento de marca</p>
+        </div>
+    <div class="project">
+        <img src="/logistica.jpg" alt="">
+        <p>Apoyo logístico de escenarios en puntos estratégicos de mayor afluencia de personas</p>
+        </div>
+    <div class="project">
+        <img src="/Masocta.jpeg" alt="">
+        <p>Tomas en PDV con animación y mascotas gigantes 
+            de la marca a potenciar, logrando el alto consumo del producto
+        </p>
+        </div>
+   </section>
+   
+
 <section id="contact">
-    <h2>Contacto</h2>
+    <h2>Contact</h2>
     <form action="/submit" method="post">
         <label for="name">Nombre:</label>
         <input type="text" id="name" name="name" required><br>
