@@ -18,21 +18,21 @@
 #contact {
     padding: 20px;
     }
-    form{
-        display: flex;
-        flex-direction: column;
-    }
-    form label {
-        margin-bottom: 5px;
-    }
-    form input, form textarea {
-        margin-bottom: 10px;
-        padding: 10px;
-        font-size: 16px;
-    }
-    form input [type="submit"] {
-        background: #333;
-        color: #fff;
-        border: none;
-        cursor: pointer;
-    }
+form{
+    display: flex;
+    flex-direction: column;
+}
+form label {
+    margin-bottom: 5px;
+}
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+form input [type="submit"] {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
